@@ -18,7 +18,7 @@ const posts = [
   { id: 4, authorId: 3, title: 'Launchpad is Cool', votes: 7 },
 ];
 
-//Schema and Resolvers
+//Schema
 const typeDefs = `
   type Author {
     id: Int!
@@ -48,6 +48,7 @@ const typeDefs = `
   }
 `;
 
+//resolvers (Basically Method Binding)
 const resolvers = {
   Query: {
     posts: () => posts,
