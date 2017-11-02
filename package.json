@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jamkwok/graphQL#readme",
   "dependencies": {
+    "apollo-link": "^1.0.0",
     "apollo-server-express": "^1.2.0",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",

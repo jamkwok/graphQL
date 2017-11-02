@@ -1,8 +1,8 @@
-import { find, filter } from 'lodash';
-import { makeExecutableSchema } from 'graphql-tools';
-import express from 'express';
-import bodyParser from 'body-parser';
-import { graphqlExpress, graphiqlExpress } from 'apollo-server-express';
+const { find, filter } = require('lodash');
+const { makeExecutableSchema } = require('graphql-tools');
+const express = require('express');
+const bodyParser = require('body-parser');
+const { graphqlExpress, graphiqlExpress } = require('apollo-server-express');
 
 //DATA
 const authors = [
