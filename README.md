@@ -1,8 +1,8 @@
-### GraphQL
+## GraphQL
 Sample GraphQL Project
 > https://github.com/apollographql/apollo-server
 
-## Example Mutation
+### Example Mutation
 ```
 {
   "query": "mutation UpdateAccount ($attrs: UpdateAccountInput!) { updateAccount(account: $attrs) { id farmId }}",
@@ -10,14 +10,14 @@ Sample GraphQL Project
 }
 ```
 
-## Example Query
+### Example Query
 ```
 {
     "query": "query { farm (keyword: \"leo\") { uuid address  } }"
 }
 ```
 
-## Example Query List
+### Example Query List
 ```
 {
     "query": "query { farmList (keyword: \"sydney\") { items { uuid address name { en } } } }"
