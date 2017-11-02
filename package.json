@@ -1,0 +1,24 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "Sample GraphQL Project > https://github.com/apollographql/apollo-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamkwok/graphQL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamkwok/graphQL/issues"
+  },
+  "homepage": "https://github.com/jamkwok/graphQL#readme",
+  "dependencies": {
+    "apollo-server-express": "^1.2.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
